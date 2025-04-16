@@ -7,10 +7,10 @@ const HeroSection = () => {
       <div className="w-[90%] mx-auto flex py-16">
         <div className="relative flex flex-col text-black">
           <div className="flex flex-col gap-1 pt-6">
-            <h2 className="text-[28px] md:text-[56px] font-bold md:w-[695px]">
+            <h2 className="text-[28px] md:text-[56px] text-center md:text-left font-bold md:w-[695px]">
               Cleaning Made Effortless,
             </h2>
-            <h2 className="text-[28px] md:text-[56px] ml-[160px] md:ml-[260px] font-bold md:w-[695px]">
+            <h2 className="text-[28px] md:text-[56px] text-center md:text-left md:ml-[260px] font-bold md:w-[695px]">
               for Home & Business.
             </h2>
           </div>
@@ -20,7 +20,7 @@ const HeroSection = () => {
             home or ensuring a pristine office, our team delivers exceptional
             results every time.
           </p>
-          <div className="flex gap-4 items-center pt-8">
+          <div className="flex flex-col md:flex-row gap-4 items-center pt-8">
                 <button className="cursor-pointer w-[212px] h-[56px] bg-[#FE824F] rounded-[12px] text-[20px] font-semibold text-white">Contact Us</button>
                 <button className="cursor-pointer w-[212px] h-[56px] bg-transparent border-[2px] border-[#FE824F] rounded-[12px] text-[20px] font-semibold text-black">Get a Free Quote</button>
           </div>
@@ -31,7 +31,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <img src="/herobg.svg" alt="img" className="hidden md:flex w-[900px] h-[800px] absolute left-140 -bottom-[10px]" />
+      <img src="/herobg.svg" alt="img" className="hidden md:flex w-[900px] h-[800px] absolute left-120 -bottom-[10px]" />
       <img src="/s1.svg" alt="img" className="hidden md:flex absolute top-48 left-45" />
       <img src="/s1.svg" alt="img" className="hidden md:flex absolute top-5 right-15" />
       <img src="/s2.svg" alt="img" className="hidden md:flex absolute top-35 left-220" />

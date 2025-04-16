@@ -19,7 +19,7 @@ const Services = () => {
           <div className="flex flex-col md:flex-row justify-center gap-10 pt-20">
             <div className="text-[20px] flex flex-col gap-3 items-center justify-center bg-[#FFFCE6] rounded-[12px] md:w-[620px] py-10">
               <img src="/home.svg" className="w-[64px] h-[64px]" alt="" />
-              <h3 className="text-[40px] font-bold">Residential Cleaning</h3>
+              <h3 className="text-[40px] font-bold text-center">Residential Cleaning</h3>
               <p>Routine Home Cleaning</p>
               <p>Deep Cleaning</p>
               <p>Move-In / Move-Out Cleaning</p>
@@ -28,7 +28,7 @@ const Services = () => {
             </div>
             <div className="text-[20px] flex flex-col gap-3 items-center justify-center bg-[#FFFCE6] rounded-[12px] md:w-[620px] py-10">
               <img src="/commercial.svg" className="" alt="" />
-              <h3 className="text-[40px] font-bold">Residential Cleaning</h3>
+              <h3 className="text-[40px] font-bold text-center">Residential Cleaning</h3>
               <p>Office & Workspace Cleaning</p>
               <p>Retail & Showroom Cleaning</p>
               <p>Restaurant & Cafe Cleaning</p>
@@ -37,8 +37,8 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <img src="/s1.svg" alt="img" className="absolute top-75 md:top-55 right-68" />
-        <img src="/s2.svg" alt="img" className="absolute top-10 left-100" />
+        <img src="/s1.svg" alt="img" className="hidden md:flex absolute top-75 md:top-55 right-68" />
+        <img src="/s2.svg" alt="img" className="hidden md:flex absolute top-10 left-100" />
       </div>
     </>
   );

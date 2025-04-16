@@ -24,7 +24,7 @@ const Testimonials = () => {
               details — highly recommended!
             </p>
             <p className="text-[20px] font-bold">Sarah M., Office Manager</p>
-            <img src="/quote.svg" className="absolute right-8 bottom-6 w-[100px] h-[80px]" alt="quote" />
+            <img src="/quote.svg" className="hidden md:flex absolute right-8 bottom-6 w-[100px] h-[80px]" alt="quote" />
           </div>
         </div>
         

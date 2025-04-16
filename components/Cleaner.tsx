@@ -5,8 +5,8 @@ const Cleaner = () => {
     <>
       <div className="bg-[url('/cleanerbg.svg')] bg-cover bg-center h-[807px] w-full flex flex-col items-center">
         <div className="flex flex-col justify-center items-center pt-28 gap-6">
-          <h2 className="text-[48px] font-bold text-center">Ready for a Cleaner Space?</h2>
-          <p className="text-[20px] font-medium  md:w-[705px] text-center">
+          <h2 className="text-[32px] md:text-[48px] font-bold text-center">Ready for a Cleaner Space?</h2>
+          <p className="text-[20px] px-6 md:px-0 font-medium  md:w-[705px] text-center">
             Whether it's your home or business, we’re here to make it shine.
             Let’s create a custom cleaning plan that fits your schedule and your
             space.
