@@ -31,7 +31,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <img src="/herobg.svg" alt="img" className="hidden md:flex w-[900px] h-[800px] absolute left-120 -bottom-[10px]" />
+      <img src="/herobg.svg" alt="img" className="hidden md:flex w-[900px] h-[800px] absolute left-140 -bottom-[10px]" />
       <img src="/s1.svg" alt="img" className="hidden md:flex absolute top-48 left-45" />
       <img src="/s1.svg" alt="img" className="hidden md:flex absolute top-5 right-15" />
       <img src="/s2.svg" alt="img" className="hidden md:flex absolute top-35 left-220" />
